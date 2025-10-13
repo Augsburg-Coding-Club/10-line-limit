@@ -1,6 +1,6 @@
 # 10 Line Code Challenge
-
-if(int(input("Pick a number 1-10"))==random.randint(1,10)):
+import random
+if(int(input("Pick a number 1-10: "))==random.randint(1,10)):
     print("///////////////////////////")
     print("        YOU LOSE")
     print("///////////////////////////")
